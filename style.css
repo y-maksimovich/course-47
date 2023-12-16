@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+}
+
+.fio {
+    color: blue;
+}
+
+#myPhoto {
+    width: 400px;
+}
+
+ol li {
+    color: red;
+}
+
+.box {
+    border: 5px solid red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.wrapper {
+    border: 5px solid blue;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+
+    /* grid-template: 100px 200px 100px / repeat(3, 1fr); */
+
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.big {
+    grid-column: 1/ 3;
+    grid-row: 2/4;
+}
